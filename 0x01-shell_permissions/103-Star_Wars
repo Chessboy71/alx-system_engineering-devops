@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod +x starwars.sh
+telnet towel.blinkenlights.nl
