@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(bc <<< "obase=$bestchol_base; $water_decimal+$stir_decimal")
