@@ -1,3 +1,5 @@
+#this file creates a new fils 
+
 file { '/tmp/school':
   ensure  => 'present',
   path    => '/tmp/school',
