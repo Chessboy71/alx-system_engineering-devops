@@ -2,4 +2,4 @@
 
 #this script is to connect ssh
 
-ssh -i ~/.ssh/school ubuntu@154.242.137.129
+ssh -i ~/.ssh/school ubuntu@54.162.225.225
