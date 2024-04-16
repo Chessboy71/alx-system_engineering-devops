@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# Check if a user was provided as an argument
+if [ $# -eq 0 ]; then
+    echo "Please provide a user as an argument."
+    exit 1
+fi
+
+# Run the whoami command as the provided user
+sudo -u $1 whoami
+
